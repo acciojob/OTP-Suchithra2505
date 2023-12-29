@@ -21,7 +21,7 @@
 	display:flex;
 	justify-content:center;
 }
-input:focus{
+input:focused{
 	background: yellow;
 	color: red;
 }
