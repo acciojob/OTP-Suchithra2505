@@ -6,14 +6,14 @@ function handleInput(input) {
 				
                 if (nextInput) {
                     //nextInput.focus();
-					setTimeout(() => nextInput.focus(), 0);
+					setTimeout(() => nextInput.focus(), 10);
                 }
             } else if (input.value.length === 0) {
                 // Move focus to the previous input on backspace
                 const prevInput = input.previousElementSibling;
                 if (prevInput) {
                    // prevInput.focus();
-					setTimeout(() => prevInput.focus(), 0);
+					setTimeout(() => prevInput.focus(), 10);
                 }
             }
         }
